@@ -49,6 +49,5 @@ function cancelHighLight(tagId) {
     var obj = document.getElementById(tagId);
     if(obj.className!='selected')
         obj.className = 'unselected'
-
 }
 

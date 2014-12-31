@@ -1,22 +1,55 @@
 body {
     font-family: "microsoft yahei";
     margin:0;
-    min-width:1440;
+    /*min-width:1440;*/
     color:#003D79;
 }
 #main{
-    margin:0 auto;
-    padding:0 80px 0 80px;
+    /*padding:0 80px 0 80px;*/
+    margin: 0 auto;
+    width: 1440px;
+    padding-left: 80px;
+    display: table;
 
 }
-.machine_list{
-    float:left;
-    width:320px;
-    margin: 20px 30px 0 0;
-    padding:5px;
+
+#banner{
+    background-color: #003D79;
+    height: 50;
+    color: whitesmoke;
+    padding: 30px 0 15px 0;
+    font-size: 40px;
+    font-weight: bolder;
+    /*cursor: pointer;*/
+    min-width: 1520px;
+
+}
+
+#footer{
+    padding: 30 80 15 0;
+}
+
+#title_container{
+    display: table;
+    margin: 0 auto;
+    width: 1440px;
+    padding-left: 80px;
+}
+.machine_list {
+    width: 320px;
+    margin: 0 0px 10px 30px;
+    padding: 5px;
     background-color: #D2E9FF;
-    min-height: 300px;
+    height: 170px;
     color: #003D79;
+}
+
+#base_machine{
+    float:left;
+    width: 980px;
+    height: 560px;
+    /*background-color: #EFF8FE;*/
+    background-color: #D2E9FF;
 }
 
 .sub{
@@ -192,19 +225,6 @@ h3{
     padding-left: 12px;
 }
 
-#banner{
-    background-color: #003D79;
-    height: 50;
-    color: whitesmoke;
-    padding: 30 80 15 70;
-    font-size: 40;
-    font-weight: bolder;
-    /*cursor: pointer;*/
-}
-
-#footer{
-    padding: 30 80 15 0;
-}
 
 
 a.page_link:visited{
@@ -236,6 +256,15 @@ a.show_config:hover{
 li{
     margin: 10 0;
     list-style: circle;
+}
+
+#base_machine  li{
+    float: left;
+    width: 33%;
+    margin: 0;
+    padding: 5px 0;
+    /*border-left: 1px solid;*/
+    padding-left: 2px;
 }
 
 #back{
